@@ -6,6 +6,10 @@ package com.ly;
 public class HeapSort {
 
 
+
+    /*
+        将数组某个位置的元素进行调整，使其满足大堆的条件
+     */
     private void heapAdjust(int[] arr,int i,int length){
 
         int childNode;
@@ -31,6 +35,7 @@ public class HeapSort {
         }
 
 
+        //由于此时堆还是处于无序状态，遍历将顶部的最大元素和底部进行替换，使其有序
         for(int i = length-1; i>0; --i){
 
             int temp = arr[0];
