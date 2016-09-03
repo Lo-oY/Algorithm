@@ -613,7 +613,7 @@
       <option name="number" value="Default" />
       <updated>1472887953481</updated>
       <workItem from="1472887956110" duration="1503000" />
-      <workItem from="1472889669102" duration="596000" />
+      <workItem from="1472889669102" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="add annotation">
       <created>1472890170632</created>
@@ -621,11 +621,17 @@
       <option name="project" value="LOCAL" />
       <updated>1472890170633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add annotation">
+      <created>1472890268911</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1472890268911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2099000" />
+    <option name="totallyTimeSpent" value="2104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
