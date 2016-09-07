@@ -1,3 +1,5 @@
+package com.ly;
+
 /**
  * Created by Lo_oY on 2016/9/6.
  */
@@ -5,7 +7,7 @@ public class MaxSubArraySum {
 
 
 
-    private int Merge(int[] a , int low, int high){
+    public int Merge(int[] a , int low, int high){
         int middle = (low+high)/2;
         int leftMaxSum = Integer.MIN_VALUE;
         int rightMaxSum = Integer.MIN_VALUE;
@@ -40,10 +42,15 @@ public class MaxSubArraySum {
 
     }
 
+    public void FindMaxArraySum(){}
+
+
     public static void main(String args[]){
 
 
         MaxSubArraySum ms = new MaxSubArraySum();
+        Package aPackage = MaxSubArraySum.class.getPackage();
+        System.out.println(aPackage);
         int[] a = {1,2,3,4,5,6,-1,-2,88,1};
         int i = ms.FindMaxArraySum(a, 0, a.length-1);
         System.out.println(i);
