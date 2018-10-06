@@ -11,7 +11,7 @@ public class BRTree {
     private static boolean BLACK = false;
     private static boolean RED = true;
 
-    class Node {
+    static class Node {
         Node left;
         Node right;
         Node parent;
